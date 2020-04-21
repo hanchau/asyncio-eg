@@ -3,4 +3,4 @@ GJS_1:
     job_server_url: 127.0.0.1:4730
 
 worker_ids:
-    async_downloader: async_downloader
+    async_governer: async_governer

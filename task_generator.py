@@ -11,4 +11,4 @@ def get_task():
     return json.dumps({"job_info": [1,2,3]})
 
 
-gearman_client.submit_job(config.get('worker_ids').get('async_downloader'), get_task(), background=True)
+gearman_client.submit_job(config.get('worker_ids').get('async_governer'), get_task(), background=True)
